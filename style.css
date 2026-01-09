@@ -2,15 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 .navbar {
+    width: 100%
+    height: 92px;
     display: flex;
     align-items: center;
     min-height: 92px; 
     padding: 16px 120px; 
     background-color: #ffffff;
-    width: 100%;
 }
 .logo {
     flex: 1;
@@ -40,8 +45,6 @@
 }
 
 .btn {
-    /* width: 164px; */
-    /* height: 44px; */
     background-color: #30b868;
     color: #ffffff;
     padding: 14px 28px;
@@ -57,6 +60,8 @@
 }
 
 .banner {
+    width: 100%;
+    height: 674px;
     width: 100%;
     min-height: 820px; 
     background: url('./assets/hero-bg.png') , rgba(0, 25, 49, 0.8) ; 
@@ -166,9 +171,12 @@
 }
 
 .apps1-section {
+    width: 100%;
+    height: 448px;
     background-color: #ffffff;
     padding: 80px 120px 44px 120px; 
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -249,3 +257,77 @@
     line-height: 20px;
     text-align: center;
 }
+
+.solution-section {
+    width: 100%;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 102px;
+    gap: 40px; 
+}
+
+
+.solution-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.solution-container {
+    max-width: 700px;
+    height: auto; 
+}
+
+.solution-h6 {
+    color: #30b868; 
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.solution-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.solution-container p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    font-weight: 400px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.solution-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
